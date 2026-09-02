@@ -9,15 +9,15 @@ jobs:
   build1:
     runs-on: ubuntu-latest
 
-  steps:
-    - uses: actions/checkout@v7
-    - name: Display current directory
-      run: pwd
-    - name: List files
-      run: ls 
-    - name: Show the date
-      run: date
-    - name: Create a text file    
-    run: touch new.txt
+    steps:
+      - uses: actions/checkout@v7
+      - name: Display current directory
+        run: pwd
+      - name: List files
+        run: ls 
+      - name: Show the date
+        run: date
+      - name: Create a text file    
+        run: touch new.txt
     
       
