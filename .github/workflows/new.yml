@@ -19,6 +19,8 @@ jobs:
         run: date
       - name: Create a text file    
         run: touch new.txt
+      - name: List files
+        run: ls
       
     
       
