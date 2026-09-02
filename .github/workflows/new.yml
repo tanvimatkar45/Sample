@@ -19,9 +19,6 @@ jobs:
         run: date
       - name: Create a text file    
         run: touch new.txt
-      - name: Run a multi-line script
-        run: |
-          echo file creted
-          echo sccessfully
+      
     
       
