@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/checkout@v7
       - name: starting the job
-        run: Job has started..
+        run: echo Job has started..
       - name: displayin date and time
         run: date
              echo The task is completed.
