@@ -1,0 +1,22 @@
+name: W2
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: 
+
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+      - name: Success message
+        run: echo Running Successfully..
+      - name: current date and time
+        run: date
+      - name: Working directory
+        run: pwd
+      
+    
+      
