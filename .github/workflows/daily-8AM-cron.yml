@@ -16,4 +16,4 @@ jobs:
       - name: current date and time
         run: date
       - name: completion
-        run: Task has been completed.
+        run: echo Task has been completed.
