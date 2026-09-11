@@ -1,0 +1,22 @@
+name: CI
+
+on: 
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 0-6"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v7
+      - name: staeting msg
+        run: echo Job has started.
+      - name: current date and time
+        run: date
+      - name: completion
+        run: Task has been completed.
