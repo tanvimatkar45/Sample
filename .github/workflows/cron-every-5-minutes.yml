@@ -18,4 +18,5 @@ jobs:
         run: echo Job has started..
       - name: displayin date and time
         run: date
-             echo The task is completed.
+      - name: completion
+        run: echo Task is completed.
